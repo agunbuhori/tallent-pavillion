@@ -1,0 +1,228 @@
+$drop-shadow: 10px
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap')
+
+*
+    box-sizing: border-box
+    
+html, body
+    margin: 0
+    padding: 0
+
+a
+    text-decoration: none
+    
+::-webkit-scrollbar 
+    display: none
+
+.image-container
+    width: 100%
+    background-size: contain
+    background-repeat: no-repeat
+    position: relative
+    font-family: 'Poppins', sans-serif;
+    z-index: 1
+
+    > img
+        width: 100%
+
+.i-link
+    position: absolute
+    height: auto
+    z-index: 99
+    display: flex
+    justify-content: center
+    align-items: center
+    .i-link__bg
+        width: 100%
+        height: 100%
+        position: absolute
+        background-size: cover
+
+    span
+        position: absolute
+        color: white
+        font-size: 1.3vw
+        text-align: center
+        line-height: 1.5vw
+        
+    a
+        display: inline-block
+        background-color: #695ed0
+        width: 5vw
+        font-size: 0.8vw
+        border-radius: 20px
+        margin-top: 1vw
+        color: white
+        display: none
+        padding: 0.3vw
+        text-align: center
+        position: absolute
+        font-family: 'Poppins', sans-serif;
+        z-index: 999
+
+#link1
+    width: 11.3%;
+    top: 49%;
+    left: 16.8%;
+
+    span
+        transform: skewY(13deg) rotateY(1deg);
+        line-height: 2vw;
+        word-spacing: 10vw;
+        font-size: 1.8vw;
+        left: 6%;
+
+    a
+        transform: skewY(10deg) rotateY(0deg)
+        bottom: 10%
+        left: 31%
+
+    .i-link__bg
+        background-image: url('../img/vefs.png')
+        filter: drop-shadow(0 0 10px #ff79f8)
+
+    &:hover .i-link__bg
+        filter: brightness(30%) drop-shadow(0 0 10px #ff79f8)
+
+    &:hover a
+        display: inline-block
+
+#link3
+    width: 8.5%;
+    top: 45%;
+    left: 45.5%;
+
+    span
+        word-spacing: 10vw
+
+    a
+        bottom: 1.5vw
+
+    .i-link__bg
+        background-image: url('../img/sftc.png')
+        filter: drop-shadow(0 0 10px #ff79f8)
+
+    &:hover .i-link__bg
+        filter: brightness(30%) drop-shadow(0 0 10px #ff79f8)
+
+    &:hover a
+        display: inline-block
+
+#link4
+    width: 10.2%;
+    top: 50%;
+    left: 61.5%;
+
+    span
+        word-spacing: 10vw
+
+    a
+        bottom: 2vw
+
+    .i-link__bg
+        background-image: url('../img/sfhe.png')
+        filter: drop-shadow(0 0 10px #44a0e8)
+
+    &:hover .i-link__bg
+        filter: brightness(30%) drop-shadow(0 0 10px #44a0e8)
+
+    &:hover a
+        display: inline-block
+
+    
+#link5
+    width: 11.2%;
+    top: 65%;
+    left: 81.5%;
+
+    span
+        transform: skewY(-10deg);
+        bottom: 23%;
+        padding: 2vw;
+        left: -8%;
+
+    a
+        bottom: 2vw;
+        transform: skewY(-7deg) rotateY(8deg);
+        left: 26%;
+        display: none;
+        width: 4vw;
+
+    .i-link__bg
+        background-image: url('../img/lfjisu.png')
+        filter: drop-shadow(0 0 10px #44a0e8)
+
+    &:hover .i-link__bg
+        filter: brightness(30%) drop-shadow(0 0 10px #44a0e8)
+
+    &:hover a
+        display: inline-block
+
+    
+#link6
+    width: 11.2%;
+    top: 29%;
+    left: 81.5%;
+
+    span
+        transform: skewY(12deg);
+        bottom: -46%;
+        left: -69%;
+        padding: 10vw;
+
+    a
+        bottom: 2vw;
+        transform: skewY(10deg);
+        width: 4vw;
+
+    .i-link__bg
+        background-image: url('../img/lfjfi.png')
+        filter: drop-shadow(0 0 10px #44a0e8)
+
+    &:hover .i-link__bg
+        filter: brightness(30%) drop-shadow(0 0 10px #44a0e8)
+
+    &:hover a
+        display: inline-block
+
+    
+#drone
+    width: 33%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    img
+        width: 100%
+
+    #slider
+        color: white;
+        width: 60%;
+        left: 11%;
+        position: absolute;
+        top: 8%;
+
+        .owl-dots
+            transform: translateY(-60%)
+
+        .item
+            padding: 7.5% 10%
+            h1
+                font-size: 1.5vw
+        
+#baloon
+    width: 25%
+    position: absolute
+    right: 0
+    top: 5%
+    color: white
+    img
+        width: 100%    
+    span
+        position: absolute;
+        z-index: 999;
+        top: 35%;
+        padding: 5%;
+        left: 4%;
+        text-align: center;
+        font-size: 1.1vw;

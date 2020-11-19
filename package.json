@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sass": "node-sass -w assets/sass/style.sass -w assets/css/style.css"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "license": "MIT"
+}
