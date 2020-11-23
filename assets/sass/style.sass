@@ -94,6 +94,7 @@ a
 #link3
     width: 8.5%
     top: 45%
+    z-index: 9
     left: 45.5%
 
     span
@@ -114,6 +115,7 @@ a
 #link4
     width: 10.2%
     top: 50%
+    z-index: 9
     left: 61.5%
 
     span
@@ -215,6 +217,7 @@ a
     right: 11%
     animation: baloon 10s
     top: 5%
+    z-index: 99
     img
         width: 100%    
     span
@@ -226,16 +229,14 @@ a
         text-align: center
         font-size: 1vw
 
-@keyframes baloon
-    0%
-        right: -25%
-        
+
 #visitor
     position: absolute
     left: 0
     bottom: 0
     overflow: auto
     width: 15%
+    z-index: 99
 
     img
         width: 100%
@@ -248,3 +249,58 @@ a
         font-size: 1.2vw;
         transform: translateX(-50%)
         text-align: center
+
+#conserv_logo
+    position: absolute
+    width: 15%
+    bottom: 5%
+    right: -15%
+    z-index: 9
+    animation: conserv 20s
+    img
+        width: 100%
+
+@keyframes  conserv
+    0%
+        right: 85%
+
+    25%
+        right: 85%
+        
+
+#car3
+    position: absolute
+    width: 15%
+    top: -15%
+    right: 10%
+    z-index: 9
+    animation: car3 15s
+    img
+        width: 100%
+
+@keyframes  car3
+    0%
+        right: 70%
+        top: 50%
+
+    15%
+        right: 70%
+        top: 50%
+        
+#wsg
+    position: absolute
+    width: 12%
+    top: 53%
+    left: 15%
+    z-index: 10
+    animation: wsg 15s
+    img
+        width: 100%
+
+@keyframes  wsg
+    0%
+        left: 75%
+        top: 30%
+    10%
+        left: 75%
+        top: 30%
