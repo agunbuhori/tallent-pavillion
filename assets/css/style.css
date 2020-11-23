@@ -197,7 +197,7 @@ a {
   bottom: 0;
   overflow: auto;
   width: 15%;
-  z-index: 99; }
+  z-index: 9999; }
   #visitor img {
     width: 100%; }
   #visitor #visitor-text {
