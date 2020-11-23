@@ -214,7 +214,7 @@ a {
   width: 15%;
   bottom: 5%;
   right: -15%;
-  z-index: 9;
+  z-index: 999;
   animation: conserv 20s; }
   #conserv_logo img {
     width: 100%; }
@@ -255,8 +255,8 @@ a {
 
 @keyframes wsg {
   0% {
-    left: 75%;
+    left: 80%;
     top: 30%; }
   10% {
-    left: 75%;
+    left: 80%;
     top: 30%; } }
