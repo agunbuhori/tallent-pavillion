@@ -19,7 +19,8 @@ a {
   position: relative;
   font-family: 'Poppins', sans-serif;
   z-index: 1;
-  color: white; }
+  color: white;
+  overflow: hidden; }
   .image-container a {
     color: white; }
   .image-container > img {
