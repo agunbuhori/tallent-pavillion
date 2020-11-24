@@ -59,18 +59,18 @@ a {
     z-index: 999; }
 
 #link1 {
-  width: 11.3%;
-  top: 49%;
-  left: 16.8%; }
+  width: 10.6%;
+  top: 43%;
+  left: 15.9%; }
   #link1 span {
-    transform: skewY(13deg) rotateY(1deg);
+    transform: skewY(13deg) rotateY(-3deg);
     line-height: 2vw;
     word-spacing: 10vw;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
     left: 6%; }
   #link1 a {
     transform: skewY(10deg) rotateY(0deg);
-    bottom: 10%;
+    bottom: 8%;
     left: 31%; }
   #link1 .i-link__bg {
     filter: drop-shadow(0 0 10px #ff79f8); }
@@ -80,10 +80,10 @@ a {
     display: inline-block; }
 
 #link3 {
-  width: 8.5%;
-  top: 45%;
+  width: 8.4%;
+  top: 47%;
   z-index: 9;
-  left: 45.5%; }
+  left: 45.2%; }
   #link3 span {
     word-spacing: 10vw; }
   #link3 a {
@@ -96,10 +96,10 @@ a {
     display: inline-block; }
 
 #link4 {
-  width: 10.2%;
-  top: 50%;
+  width: 10.4%;
+  top: 52%;
   z-index: 9;
-  left: 61.5%; }
+  left: 60.8%; }
   #link4 span {
     word-spacing: 10vw; }
   #link4 a {
@@ -113,8 +113,8 @@ a {
 
 #link5 {
   width: 11.2%;
-  top: 65%;
-  left: 81.5%; }
+  top: 70%;
+  left: 82%; }
   #link5 span {
     transform: skewY(-10deg);
     bottom: 23%;
@@ -157,7 +157,7 @@ a {
   width: 33%;
   height: auto;
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 2%; }
   #drone img {
     width: 100%; }
@@ -174,9 +174,9 @@ a {
         font-size: 1.5vw; }
 
 #baloon {
-  width: 22%;
+  width: 20%;
   position: absolute;
-  right: 11%;
+  right: 14%;
   animation: baloon 10s;
   top: 5%;
   z-index: 99; }
@@ -189,7 +189,7 @@ a {
     padding: 5%;
     left: 4%;
     text-align: center;
-    font-size: 1vw; }
+    font-size: 0.9vw; }
 
 #visitor {
   position: absolute;
@@ -228,7 +228,7 @@ a {
 #car3 {
   position: absolute;
   width: 15%;
-  top: -15%;
+  top: -20%;
   right: 10%;
   z-index: 9;
   animation: car3 15s; }
