@@ -15,6 +15,7 @@ $(function () {
         $(item).prepend('<div class="i-link__bg"></div>')
         var bgimage = $(item).find('img').attr('src');
         var bg = $(item).find('.i-link__bg').eq(0);
+        
         $(bg).css('background-image', 'url('+bgimage+')');
     })
 
