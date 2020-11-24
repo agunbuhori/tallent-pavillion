@@ -28,4 +28,14 @@ $(function () {
         }
     });
 
+    $('.animated').each(function (index, item) {
+        var animation = $(item).attr('animation');
+        var started = $(item).attr('start');
+        started = parseInt(started.replace(/s/, '000'));
+
+        setTimeout(() => {
+            item.style.animation = animation;
+        }, started);
+    });
+
 });

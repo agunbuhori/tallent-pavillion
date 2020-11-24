@@ -235,49 +235,38 @@ a {
   width: 15%;
   bottom: 5%;
   right: -15%;
-  z-index: 999;
-  animation: conserv 20s; }
+  z-index: 999; }
   #conserv_logo img {
     width: 100%; }
-
-@keyframes conserv {
-  0% {
-    right: 85%; }
-  25% {
-    right: 85%; } }
 
 #car3 {
   position: absolute;
   width: 15%;
   top: -20%;
   right: 2%;
-  z-index: 1;
-  animation: car3 15s; }
+  z-index: 1; }
   #car3 img {
     width: 100%; }
-
-@keyframes car3 {
-  0% {
-    right: 70%;
-    top: 50%; }
-  15% {
-    right: 70%;
-    top: 50%; } }
 
 #wsg {
   position: absolute;
   width: 8%;
   top: 74%;
   left: 5%;
-  z-index: 5;
-  animation: wsg 15s; }
+  z-index: 5; }
   #wsg img {
     width: 100%; }
 
+@keyframes conserv {
+  0% {
+    right: 85%; } }
+
+@keyframes car3 {
+  0% {
+    right: 70%;
+    top: 50%; } }
+
 @keyframes wsg {
   0% {
-    left: 85%;
-    top: 45%; }
-  10% {
     left: 85%;
     top: 45%; } }

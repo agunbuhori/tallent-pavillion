@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "sass": "node-sass -w assets/sass/style.sass -w assets/css/style.css"
+    "sass": "node-sass -w assets/sass/style.sass -w assets/css/banner.css"
   },
   "dependencies": {
     "node-sass": "^5.0.0"
