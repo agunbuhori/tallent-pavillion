@@ -27,7 +27,9 @@ $(function () {
             $(this).find('.i-link__title').toggle();
         }
     });
+});
 
+$(window).on('load', function () {
     $('.animated').each(function (index, item) {
         var animation = $(item).attr('animation');
         var started = $(item).attr('start');
@@ -37,5 +39,4 @@ $(function () {
             item.style.animation = animation;
         }, started);
     });
-
 });
