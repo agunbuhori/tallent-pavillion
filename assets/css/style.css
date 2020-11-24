@@ -25,6 +25,24 @@ a {
   .image-container > img {
     width: 100%; }
 
+#building1 {
+  position: absolute;
+  bottom: 0;
+  left: 7.5%;
+  width: 24%;
+  z-index: 2; }
+  #building1 img {
+    width: 100%; }
+
+#building3 {
+  position: absolute;
+  bottom: 0;
+  right: 1.7%;
+  width: 17%;
+  z-index: 6; }
+  #building3 img {
+    width: 100%; }
+
 .i-link {
   position: absolute;
   height: auto;
@@ -59,9 +77,10 @@ a {
     z-index: 999; }
 
 #link1 {
-  width: 10.6%;
-  top: 43%;
-  left: 15.9%; }
+  width: 10.8%;
+  top: 42%;
+  left: 15.9%;
+  z-index: 2; }
   #link1 span {
     transform: skewY(13deg) rotateY(-3deg);
     line-height: 2vw;
@@ -82,7 +101,7 @@ a {
 #link3 {
   width: 8.4%;
   top: 47%;
-  z-index: 9;
+  z-index: 1;
   left: 45.2%; }
   #link3 span {
     word-spacing: 10vw; }
@@ -98,7 +117,7 @@ a {
 #link4 {
   width: 10.4%;
   top: 52%;
-  z-index: 9;
+  z-index: 4;
   left: 60.8%; }
   #link4 span {
     word-spacing: 10vw; }
@@ -135,8 +154,8 @@ a {
 
 #link6 {
   width: 11.2%;
-  top: 29%;
-  left: 81.5%; }
+  top: 27.3%;
+  left: 83.5%; }
   #link6 span {
     transform: skewY(12deg);
     bottom: -46%;
@@ -158,13 +177,15 @@ a {
   height: auto;
   position: absolute;
   top: 5%;
-  left: 2%; }
+  left: 2%;
+  z-index: 10; }
   #drone img {
     width: 100%; }
   #drone #slider {
     width: 60%;
     left: 11%;
     position: absolute;
+    z-index: 99;
     top: 8%; }
     #drone #slider .owl-dots {
       transform: translateY(-60%); }
@@ -229,8 +250,8 @@ a {
   position: absolute;
   width: 15%;
   top: -20%;
-  right: 10%;
-  z-index: 9;
+  right: 2%;
+  z-index: 1;
   animation: car3 15s; }
   #car3 img {
     width: 100%; }
@@ -245,18 +266,18 @@ a {
 
 #wsg {
   position: absolute;
-  width: 12%;
-  top: 53%;
-  left: 15%;
-  z-index: 10;
+  width: 8%;
+  top: 74%;
+  left: 5%;
+  z-index: 5;
   animation: wsg 15s; }
   #wsg img {
     width: 100%; }
 
 @keyframes wsg {
   0% {
-    left: 80%;
-    top: 30%; }
+    left: 85%;
+    top: 45%; }
   10% {
-    left: 80%;
-    top: 30%; } }
+    left: 85%;
+    top: 45%; } }
