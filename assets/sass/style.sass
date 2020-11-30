@@ -227,8 +227,11 @@ a
         z-index: 99
         top: 8%
 
+        .owl-theme .owl-nav.disabled+.owl-dots
+            margin-top: 0
+
         .owl-dots
-            transform: translateY(-60%)
+            transform: translateY(-100%)
 
         .item
             padding: 7.5% 10%
@@ -314,3 +317,7 @@ a
     0%
         left: 85%
         top: 45%
+
+.owl-theme .owl-dots .owl-dot span
+    width: 1vw
+    height: 1vw

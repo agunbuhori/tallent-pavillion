@@ -188,8 +188,10 @@ a {
     position: absolute;
     z-index: 99;
     top: 8%; }
+    #drone #slider .owl-theme .owl-nav.disabled + .owl-dots {
+      margin-top: 0; }
     #drone #slider .owl-dots {
-      transform: translateY(-60%); }
+      transform: translateY(-100%); }
     #drone #slider .item {
       padding: 7.5% 10%; }
       #drone #slider .item h1 {
@@ -271,3 +273,7 @@ a {
   0% {
     left: 85%;
     top: 45%; } }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 1vw;
+  height: 1vw; }
